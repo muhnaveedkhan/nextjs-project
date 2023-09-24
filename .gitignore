@@ -1,0 +1,27 @@
+# Ignore Next.js build output
+/.next/
+
+# Ignore Node.js modules
+/node_modules/
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore development environment file
+.env.local
+
+# Ignore .DS_Store files (macOS)
+.DS_Store
+
+# Ignore IDE and editor configuration files
+.idea/
+.vscode/
+
+# Ignore local development files
+/.env
+/local/
+
+# Ignore npm package-lock files
+package-lock.json
