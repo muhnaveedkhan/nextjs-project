@@ -1,9 +1,12 @@
-export default function ProductDetail(){
 
+export default function ProductDetail({ params }: { params: { productid: string } }){
+    
     return(
         <>
 
-            <h2> This is product detail ID: 1</h2>
+            <h2> This is product detail ID: {params.productid} </h2>
+
+        
         
         </>
     );
